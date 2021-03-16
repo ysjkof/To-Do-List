@@ -48,7 +48,7 @@ function saveLocalStorage(array) {
     if (savePending === null) {
       console.log("----------저장할 Pending 값이 없습니다. null");
     } else {
-      "finished", console.log("----------저장합니다: 팬딩 데이터");
+      console.log("----------저장합니다: pending data");
       savePending;
     }
   }
@@ -60,7 +60,7 @@ function saveLocalStorage(array) {
     if (saveFinished === null) {
       console.log("---------저장할 Finished 값이 없습니다. null");
     } else {
-      console.log("-----------저장합니다: 피니시 데이터");
+      console.log("-----------저장합니다: finished data");
       saveFinished;
     }
   }
